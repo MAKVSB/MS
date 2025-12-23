@@ -1,0 +1,33 @@
+1: 2 abcd:
+něco ve stylu "Jaký typ komunikace nejlépe odpovídá fungování systému GPS, kde více satelitů nepřetržitě vysílá signály všem přijímačům a přijímač si z vysílaných dat vybírá pouze potřebné informace?"
+(správně bylo diskový broadcast)
+
+Které tvrzení neplatí pro (tuším že tam bylo  IPV4)
+(nevím co tam bylo za možnosti protože to byly samé pičoviny a už jsem se k tomu navracel)
+
+2: Které přístupy používá který protokol
+6 věcí a ke každé políčko  (IPV4/IPV6/oba/žádné)
+basically tyhle pojmy, ale dobré pochopit co používá/nepoužívá co)
+-    Home network – HN
+-    Foreign network – FN
+-    Home agent – HA
+-    Foreign agent - FA
+-    Home address – HA
+-    Care-of address – CoA
+-    Mobile node – MN
+-    Correspondent node – CN (komunikuje s mobilním)
+
+3: 3 příklady mobility kódu, které se používají v praxi a popsat
+
+4: 3 příklady metod určování poloh, jaká je jejich přesnost a kolik minimálně zdrojů dat je potřeba 
+
+5: Jak by jste implementovali offline režim pro aplikaci, kde ale nemůžete upravovat kód stavajících aplikací.
+(correct answer je basically strčit proxy/agenta mezi)
+
+6: Nevím už
+
+7: Mobilní operátor buduje aplikaci pro výjezdy techniků. Jak implementovat aplikaci pro sníženou/přerušovanou konektifitu a navrhnout procesy tak aby bylo možné odesílat data (videa/fotky) ze zásahu a možnost přeorganizovat techniky)
+(tu jsem byl v píči co vlastně chce)
+
+8: Město se rozhodlo namontovat snímače na vánoční stromy, které stínají různá data jak rychlost větru, náklon stromu. Pro komunikaci po městě mohou být využity mosty. Předpokládá se využití nelicencovaného pásma (takže ne data, wifi, ...) Jak by jste fyzicky implementovali tuto síť.
+(chce co nejvíc buzzwordů a konkrétní technologie/frekvence a kokotiny, ale hodnotí celkem střídmě)
