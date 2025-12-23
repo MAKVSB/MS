@@ -1,0 +1,1 @@
+python main.py && rm -rf synced_files sync_status.json token.pickle
