@@ -1,0 +1,18 @@
+# veřejný chat - každý může číst všechny zprávy
+pattern read /mschat/all/#
+
+# veřejný chat - publikovat může jen do svého tématu
+pattern write /mschat/all/%u
+
+# status - každý může číst status všech uživatelů
+pattern read /mschat/status/#
+
+# status - každý může publikovat jen svůj vlastní
+pattern write /mschat/status/%u
+
+# privátní zprávy
+# čtení - jen pro ID příjemce
+pattern read /mschat/user/%u/#
+
+# psaní - jen do topiců kde je odesilatel = klient
+pattern write /mschat/user/+/%u
